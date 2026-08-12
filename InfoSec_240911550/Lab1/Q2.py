@@ -93,3 +93,17 @@ print("Key        :", auto_key)
 print("Ciphertext :", auto_cipher)
 print("Decrypted  :", auto_plain)
 
+"""
+OUTPUT:
+Enter the message: the house is being sold tonight
+
+--- Vigenere Cipher ---
+Key        : dollars
+Ciphertext : WVPSOLKHWDMEZFJGZWDKGQWRST
+Decrypted  : THEHOUSEISBEINGSOLDTONIGHT
+
+--- Autokey Cipher ---
+Key        : 7
+Ciphertext : AALLVIMWMATFMVTYGZOWHBVONA
+Decrypted  : THEHOUSEISBEINGSOLDTONIGHT
+"""
