@@ -108,3 +108,21 @@ print("\nPrepared Plaintext:", prepared)
 cipher = playfair_encrypt(prepared, matrix)
 
 print("Ciphertext:", cipher)
+
+
+"""
+OUTPUT:
+
+Enter the key: GUIDANCE
+Enter the message: The key is hidden under the door pad
+
+Playfair Matrix:
+G U I D A
+N C E B F
+H K L M O
+P Q R S T
+V W X Y Z
+
+Prepared Plaintext: THEKEYISHIDXDENUNDERTHEDOXORPADX
+Ciphertext: POCLBXDRLGIYIBCGBGLXPOBILZLTTGIY
+"""
