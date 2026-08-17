@@ -1,3 +1,9 @@
+"""
+Use a Hill cipher to encipher the message "We live in an insecure world". Use the following
+key:
+𝐾 = [03 03 2 07]
+"""
+
 def mod_inverse(a, m):
     """Find modular inverse of a under modulo m"""
     for x in range(1, m):
