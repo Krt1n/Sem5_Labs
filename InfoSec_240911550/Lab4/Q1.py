@@ -1,15 +1,14 @@
 """
-SecureCorp is a large enterprise with multiple subsidiaries and business units located across
-different geographical regions. As part of their digital transformation initiative, the IT team at
-SecureCorp has been tasked with building a secure and scalable communication system to
-enable seamless collaboration and information sharing between their various subsystems.
-The enterprise system consists of the following key subsystems:
-1. Finance System (System A): Responsible for all financial record-keeping, accounting, and
-37Database and Domain Name Servers (DNS)
-reporting.
-2. HR System (System B): Manages employee data, payroll, and personnel-related processes.
-3. Supply Chain Management (System C): Coordinates the flow of goods, services, and
-information across the organization's supply chain.
+ Q1 — Short Version
+
+**SecureCorp** has three systems: **Finance, HR, and Supply Chain** that need to securely exchange sensitive documents.
+
+Develop a **Python program** that:
+
+1. Uses **RSA encryption** and **Diffie-Hellman key exchange** for secure communication.
+2. Provides **key management** for generating, distributing, and revoking keys.
+3. Supports **scalability**, allowing new systems to be added easily.
+
 """
 
 import math
