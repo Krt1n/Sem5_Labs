@@ -1,3 +1,29 @@
+"""
+HealthCare Inc., a leading healthcare provider, has implemented a secure patient data
+management system using the Rabin cryptosystem. The system allows authorized healthcare
+professionals to securely access and manage patient records across multiple hospitals and
+clinics within the organization. Implement a Python-based centralized key management
+service that can:
+• Key Generation: Generate public and private key pairs for each hospital and clinic using
+the Rabin cryptosystem. The key size should be configurable (e.g., 1024 bits).
+• Key Distribution: Provide a secure API for hospitals and clinics to request and receive
+their public and private key pairs.
+• Key Revocation: Implement a process to revoke and update the keys of a hospital or
+clinic when necessary (e.g., when a facility is closed or compromised).
+• Key Renewal: Automatically renew the keys of all hospitals and clinics at regular
+intervals (e.g., every 12 months) to maintain the security of the patient data management
+system.
+• Secure Storage: Securely store the private keys of all hospitals and clinics, ensuring that
+they are not accessible to unauthorized parties.
+• Auditing and Logging: Maintain detailed logs of all key management operations, such
+as key generation, distribution, revocation, and renewal, to enable auditing and
+compliance reporting.
+• Regulatory Compliance: Ensure that the key management service and its operations are
+compliant with relevant data privacy regulations (e.g., HIPAA).
+• Perform a trade-off analysis to compare the workings of Rabin and RSA.
+"""
+
+
 import secrets
 from cryptography.fernet import Fernet
 from datetime import datetime, timedelta
